@@ -1,0 +1,16 @@
+title: Info
+
+pages: false
+
+fields:
+    title:
+        label: Title
+        type: text
+
+    email:
+        label: Contact e-mail
+        type: text
+
+    text:
+        label: Text
+        type: textarea
