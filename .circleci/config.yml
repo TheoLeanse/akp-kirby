@@ -14,12 +14,11 @@ jobs:
             - image: circleci/node:carbon-browsers
         steps:
             - checkout
-            - run: make deploy
+            - run: make build deploy
 workflows:
     version: 2
-    build-and-deploy:
+    deploy:
         jobs:
-            - build
             - deploy:
                   requires:
                       - build
