@@ -1,5 +1,8 @@
 start:
 	php -S localhost:8000
 
-install:
-	@echo 'Heya'
+ build:
+	@echo 'building...'
+
+ deploy:
+	@echo 'deploying...'
