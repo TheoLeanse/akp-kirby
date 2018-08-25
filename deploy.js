@@ -7,7 +7,6 @@ const ftpDeploy = new FtpDeploy();
 	'assets/css',
 	'site/blueprints',
 	'site/config',
-	'site/controllers',
 	'site/plugins',
 	'site/snippets',
 	'site/templates'
