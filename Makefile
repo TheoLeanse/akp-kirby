@@ -3,6 +3,8 @@ start:
 
  build:
 	@echo 'building...'
+	@npm i
 
  deploy:
 	@echo 'deploying...'
+	@node deploy.js
