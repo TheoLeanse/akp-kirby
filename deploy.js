@@ -17,8 +17,8 @@ const ftpDeploy = new FtpDeploy();
 			password: process.env.FTP_PASSWORD,
 			host: process.env.FTP_SERVER,
 			port: process.env.PORT,
-			localRoot: __dirname + '/' + directory,
-			remoteRoot: '/test-deploy/' + directory,
+			localRoot: `${__dirname}/${directory}`,
+			remoteRoot: `/${directory}`,
 			include: ['*', '**/*'],
 			exclude: [],
 			deleteRemote: true
