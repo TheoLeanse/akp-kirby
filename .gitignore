@@ -3,5 +3,6 @@ panel
 kirby
 content
 site/accounts
+site/cache
 .env
 node_modules
